@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block main %}
+
+Summoner Name:{{summoner_name}} <br>
+Champion Name:{{champion_name}} <br>
+Champion Position:{{champion_position}} <br>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div class="title"><h1>Plotlyのグラフを描画</h1></div>
+<div class="graph">{{fig|safe}}</div>
+{% endblock %}
