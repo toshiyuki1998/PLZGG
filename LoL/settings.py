@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'LoL.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'django',
+        'USER': 'djangouser',
+        'PASSWORD': 'toshiyuki0615',
+        'HOST': '10.0.2.10',
+        'PORT': '5432',
     }
 }
 
