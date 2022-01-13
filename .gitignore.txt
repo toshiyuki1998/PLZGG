@@ -1,2 +1,2 @@
 /plzgg/programs/.env
-/plzgg/source
+/plzgg/source/
